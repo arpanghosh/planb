@@ -27,7 +27,6 @@
 		81D895F9186A269C0098C78E /* PlanB.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D895F8186A269C0098C78E /* PlanB.m */; };
 		81D89600186A269D0098C78E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D895FF186A269D0098C78E /* XCTest.framework */; };
 		81D89601186A269D0098C78E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D895F1186A269C0098C78E /* Foundation.framework */; };
-		81D89603186A269D0098C78E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D89602186A269D0098C78E /* UIKit.framework */; };
 		81D89606186A269D0098C78E /* libPlanB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D895EE186A269C0098C78E /* libPlanB.a */; };
 		81D8960C186A269D0098C78E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81D8960A186A269D0098C78E /* InfoPlist.strings */; };
 		81D8960E186A269D0098C78E /* PlanBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D8960D186A269D0098C78E /* PlanBTests.m */; };
@@ -72,7 +71,6 @@
 		81D895F8186A269C0098C78E /* PlanB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanB.m; sourceTree = "<group>"; };
 		81D895FE186A269D0098C78E /* PlanBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D895FF186A269D0098C78E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		81D89602186A269D0098C78E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		81D89609186A269D0098C78E /* PlanBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlanBTests-Info.plist"; sourceTree = "<group>"; };
 		81D8960B186A269D0098C78E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81D8960D186A269D0098C78E /* PlanBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanBTests.m; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 			files = (
 				81D89600186A269D0098C78E /* XCTest.framework in Frameworks */,
 				81D89606186A269D0098C78E /* libPlanB.a in Frameworks */,
-				81D89603186A269D0098C78E /* UIKit.framework in Frameworks */,
 				81D89601186A269D0098C78E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,7 +122,6 @@
 			children = (
 				81D895F1186A269C0098C78E /* Foundation.framework */,
 				81D895FF186A269D0098C78E /* XCTest.framework */,
-				81D89602186A269D0098C78E /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -504,6 +500,7 @@
 				81D89613186A269D0098C78E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81D89614186A269D0098C78E /* Build configuration list for PBXNativeTarget "PlanBTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +509,7 @@
 				81D89616186A269D0098C78E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81D8961B186A277C0098C78E /* Build configuration list for PBXAggregateTarget "Framework" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +518,7 @@
 				81D8961D186A277C0098C78E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
