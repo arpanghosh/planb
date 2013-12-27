@@ -22,15 +22,19 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		8121622D186CEC890052928B /* PBRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8121622B186CEC890052928B /* PBRegion.h */; };
+		8121622E186CEC890052928B /* PBRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121622C186CEC890052928B /* PBRegion.m */; };
+		81216231186CEE8D0052928B /* PBCookieHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8121622F186CEE8D0052928B /* PBCookieHandler.h */; };
+		81216232186CEE8D0052928B /* PBCookieHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 81216230186CEE8D0052928B /* PBCookieHandler.m */; };
+		81216235186CF2510052928B /* PBCookieMonster.h in Headers */ = {isa = PBXBuildFile; fileRef = 81216233186CF2510052928B /* PBCookieMonster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81216236186CF2510052928B /* PBCookieMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 81216234186CF2510052928B /* PBCookieMonster.m */; };
+		81491650186CFFEF000AF2A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149164F186CFFEF000AF2A8 /* UIKit.framework */; };
 		81D895F2186A269C0098C78E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D895F1186A269C0098C78E /* Foundation.framework */; };
-		81D895F7186A269C0098C78E /* PlanB.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81D895F6186A269C0098C78E /* PlanB.h */; };
-		81D895F9186A269C0098C78E /* PlanB.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D895F8186A269C0098C78E /* PlanB.m */; };
 		81D89600186A269D0098C78E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D895FF186A269D0098C78E /* XCTest.framework */; };
 		81D89601186A269D0098C78E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D895F1186A269C0098C78E /* Foundation.framework */; };
 		81D89606186A269D0098C78E /* libPlanB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D895EE186A269C0098C78E /* libPlanB.a */; };
 		81D8960C186A269D0098C78E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81D8960A186A269D0098C78E /* InfoPlist.strings */; };
 		81D8960E186A269D0098C78E /* PlanBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D8960D186A269D0098C78E /* PlanBTests.m */; };
-		81D89618186A26EE0098C78E /* PlanB.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D895F6186A269C0098C78E /* PlanB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,18 +61,22 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				81D895F7186A269C0098C78E /* PlanB.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8121622B186CEC890052928B /* PBRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRegion.h; sourceTree = "<group>"; };
+		8121622C186CEC890052928B /* PBRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRegion.m; sourceTree = "<group>"; };
+		8121622F186CEE8D0052928B /* PBCookieHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCookieHandler.h; sourceTree = "<group>"; };
+		81216230186CEE8D0052928B /* PBCookieHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCookieHandler.m; sourceTree = "<group>"; };
+		81216233186CF2510052928B /* PBCookieMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCookieMonster.h; sourceTree = "<group>"; };
+		81216234186CF2510052928B /* PBCookieMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCookieMonster.m; sourceTree = "<group>"; };
+		8149164F186CFFEF000AF2A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81D895EE186A269C0098C78E /* libPlanB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlanB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D895F1186A269C0098C78E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81D895F5186A269C0098C78E /* PlanB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlanB-Prefix.pch"; sourceTree = "<group>"; };
-		81D895F6186A269C0098C78E /* PlanB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanB.h; sourceTree = "<group>"; };
-		81D895F8186A269C0098C78E /* PlanB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanB.m; sourceTree = "<group>"; };
 		81D895FE186A269D0098C78E /* PlanBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D895FF186A269D0098C78E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		81D89609186A269D0098C78E /* PlanBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlanBTests-Info.plist"; sourceTree = "<group>"; };
@@ -81,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81491650186CFFEF000AF2A8 /* UIKit.framework in Frameworks */,
 				81D895F2186A269C0098C78E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +129,7 @@
 		81D895F0186A269C0098C78E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8149164F186CFFEF000AF2A8 /* UIKit.framework */,
 				81D895F1186A269C0098C78E /* Foundation.framework */,
 				81D895FF186A269D0098C78E /* XCTest.framework */,
 			);
@@ -129,8 +139,12 @@
 		81D895F3186A269C0098C78E /* PlanB */ = {
 			isa = PBXGroup;
 			children = (
-				81D895F6186A269C0098C78E /* PlanB.h */,
-				81D895F8186A269C0098C78E /* PlanB.m */,
+				81216233186CF2510052928B /* PBCookieMonster.h */,
+				81216234186CF2510052928B /* PBCookieMonster.m */,
+				8121622F186CEE8D0052928B /* PBCookieHandler.h */,
+				81216230186CEE8D0052928B /* PBCookieHandler.m */,
+				8121622B186CEC890052928B /* PBRegion.h */,
+				8121622C186CEC890052928B /* PBRegion.m */,
 				81D895F4186A269C0098C78E /* Supporting Files */,
 			);
 			path = PlanB;
@@ -169,7 +183,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D89618186A26EE0098C78E /* PlanB.h in Headers */,
+				8121622D186CEC890052928B /* PBRegion.h in Headers */,
+				81216235186CF2510052928B /* PBCookieMonster.h in Headers */,
+				81216231186CEE8D0052928B /* PBCookieHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D895F9186A269C0098C78E /* PlanB.m in Sources */,
+				81216236186CF2510052928B /* PBCookieMonster.m in Sources */,
+				8121622E186CEC890052928B /* PBRegion.m in Sources */,
+				81216232186CEE8D0052928B /* PBCookieHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
