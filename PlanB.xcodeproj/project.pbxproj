@@ -26,8 +26,8 @@
 		8121622E186CEC890052928B /* PBRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121622C186CEC890052928B /* PBRegion.m */; };
 		81216231186CEE8D0052928B /* PBCookieHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8121622F186CEE8D0052928B /* PBCookieHandler.h */; };
 		81216232186CEE8D0052928B /* PBCookieHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 81216230186CEE8D0052928B /* PBCookieHandler.m */; };
-		81216235186CF2510052928B /* PBCookieMonster.h in Headers */ = {isa = PBXBuildFile; fileRef = 81216233186CF2510052928B /* PBCookieMonster.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81216236186CF2510052928B /* PBCookieMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 81216234186CF2510052928B /* PBCookieMonster.m */; };
+		81216235186CF2510052928B /* PlanB.h in Headers */ = {isa = PBXBuildFile; fileRef = 81216233186CF2510052928B /* PlanB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81216236186CF2510052928B /* PlanB.m in Sources */ = {isa = PBXBuildFile; fileRef = 81216234186CF2510052928B /* PlanB.m */; };
 		81491650186CFFEF000AF2A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149164F186CFFEF000AF2A8 /* UIKit.framework */; };
 		81D895F2186A269C0098C78E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D895F1186A269C0098C78E /* Foundation.framework */; };
 		81D89600186A269D0098C78E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D895FF186A269D0098C78E /* XCTest.framework */; };
@@ -71,8 +71,8 @@
 		8121622C186CEC890052928B /* PBRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRegion.m; sourceTree = "<group>"; };
 		8121622F186CEE8D0052928B /* PBCookieHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCookieHandler.h; sourceTree = "<group>"; };
 		81216230186CEE8D0052928B /* PBCookieHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCookieHandler.m; sourceTree = "<group>"; };
-		81216233186CF2510052928B /* PBCookieMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCookieMonster.h; sourceTree = "<group>"; };
-		81216234186CF2510052928B /* PBCookieMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCookieMonster.m; sourceTree = "<group>"; };
+		81216233186CF2510052928B /* PlanB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanB.h; sourceTree = "<group>"; };
+		81216234186CF2510052928B /* PlanB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanB.m; sourceTree = "<group>"; };
 		8149164F186CFFEF000AF2A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81D895EE186A269C0098C78E /* libPlanB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlanB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D895F1186A269C0098C78E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,8 +139,8 @@
 		81D895F3186A269C0098C78E /* PlanB */ = {
 			isa = PBXGroup;
 			children = (
-				81216233186CF2510052928B /* PBCookieMonster.h */,
-				81216234186CF2510052928B /* PBCookieMonster.m */,
+				81216233186CF2510052928B /* PlanB.h */,
+				81216234186CF2510052928B /* PlanB.m */,
 				8121622F186CEE8D0052928B /* PBCookieHandler.h */,
 				81216230186CEE8D0052928B /* PBCookieHandler.m */,
 				8121622B186CEC890052928B /* PBRegion.h */,
@@ -184,7 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8121622D186CEC890052928B /* PBRegion.h in Headers */,
-				81216235186CF2510052928B /* PBCookieMonster.h in Headers */,
+				81216235186CF2510052928B /* PlanB.h in Headers */,
 				81216231186CEE8D0052928B /* PBCookieHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81216236186CF2510052928B /* PBCookieMonster.m in Sources */,
+				81216236186CF2510052928B /* PlanB.m in Sources */,
 				8121622E186CEC890052928B /* PBRegion.m in Sources */,
 				81216232186CEE8D0052928B /* PBCookieHandler.m in Sources */,
 			);

@@ -1,14 +1,15 @@
 //
-//  PBCookieMonster.m
-//  PBCookieMonster
+//  PlanB.m
+//  PlanB
 //
 //  Created by Arpan Ghosh on 12/8/13.
 //  Copyright (c) 2013 Plan B. All rights reserved.
 //
 
-#import "PBCookieMonster.h"
+#import "PlanB.h"
 #import "PBCookieHandler.h"
 #import "PBRegion.h"
+
 
 #define PLANB_GENERIC_REGION_UUID @"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"
 #define PLANB_GENERIC_REGION_IDENTIFIER @"PLANB_REGION_IDENTIFIER_GENERIC"
@@ -18,8 +19,7 @@
 
 
 
-
-@interface PBCookieMonster ()
+@interface PlanB ()
 
 @property (strong, nonatomic) CLLocationManager *beaconManager;
 @property (strong, nonatomic) NSMutableDictionary *pbRegionWhitelist;
@@ -30,7 +30,7 @@
 @end
 
 
-@implementation PBCookieMonster
+@implementation PlanB
 
 
 + (BOOL) deviceSupportsCookieCollection{
@@ -52,20 +52,20 @@
     // Need 2 modes. A separate one for when 'Background App Refresh' is disabled, which only performs
     // active ranging whenever the app is in the foreground.
     
-    return ([PBCookieMonster deviceSupportsCookieCollection] && isBackgroundAppRefreshEnabled);
+    return ([PlanB deviceSupportsCookieCollection] && isBackgroundAppRefreshEnabled);
 }
 
 
 
-+ (instancetype)getPBCookieMonster {
-    static PBCookieMonster *sharedPBCookieMonster = nil;
-    if ([PBCookieMonster cookieCollectionPossible]) {
++ (instancetype)getPlanBInstance {
+    static PlanB *sharedPlanB = nil;
+    if ([PlanB cookieCollectionPossible]) {
         static dispatch_once_t onceToken;
         dispatch_once(&onceToken, ^{
-            sharedPBCookieMonster = [[self alloc] init];
+            sharedPlanB = [[self alloc] init];
         });
     }
-    return sharedPBCookieMonster;
+    return sharedPlanB;
 }
 
 
